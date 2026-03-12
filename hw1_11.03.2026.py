@@ -67,5 +67,5 @@ def business_card(user_dict: dict) -> None:
 
 details_user = take_input()
 create_dict_details_user = dict_input(details_user[0], details_user[1], details_user[2], details_user[3])
-print(create_dict_details_user)
+print(f"\n{create_dict_details_user}")
 business_card(create_dict_details_user)
